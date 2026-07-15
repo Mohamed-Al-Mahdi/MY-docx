@@ -37,4 +37,4 @@ fig = px.line(x=x, y=y, title='Simple Line Chart')
 # it Open the graph in your browser
 fig.show()
 ```
-![example](Plotly/plots/example_plot.png)
+![example](./plots/example_plot.png)
