@@ -92,7 +92,7 @@ fig = px.histogram(x=pixel_intensities, title='Image Pixel Intensity Distributio
 fig.show()
 ```
 
-![histogram](./plots/gistogram.png)
+![histogram](./plots/histogram.png)
 
 ## Box Plot
 
