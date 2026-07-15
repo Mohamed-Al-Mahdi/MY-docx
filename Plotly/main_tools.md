@@ -18,9 +18,9 @@ fig = px.bar(x=categories, y=accuracy, title='AI Model Accuracy Comparison')
 fig.show()
 ```
 
-![bar_1]()
+![bar_1](./plots/bar_1.png)
 
-![bar_2]()
+![bar_2](./plots/bar_2.png)
 
 
 ## Line chart `px.line`
@@ -39,8 +39,7 @@ fig = px.line(x=epochs, y=loss, title='AI Model Training Loss')
 fig.show()
 ```
 
-![line_1]()
-![line_2]()
+![line](./plots/line.png)
 
 ## scatter plot `px.scatter`
 
@@ -58,8 +57,7 @@ fig = px.scatter(x=model_size_mb, y=inference_time_ms, title='Model Size vs. Spe
 fig.show()
 ```
 
-![scatter_1]()
-![scatter_2]()
+![scatter](./plots/scatter.png)
 
 ## Pie Chart `px.pie`
 
@@ -77,6 +75,8 @@ fig = px.pie(names=labels, values=values, title='Dataset Split Proportions')
 fig.show()
 ```
 
+![pie](./plots/pie.png)
+
 ## Histogram
 
 ```python
@@ -92,7 +92,7 @@ fig = px.histogram(x=pixel_intensities, title='Image Pixel Intensity Distributio
 fig.show()
 ```
 
-![histogram]()
+![histogram](./plots/gistogram.png)
 
 ## Box Plot
 
@@ -112,7 +112,7 @@ fig = px.imshow(matrix, x=['Cat', 'Dog'], y=['Cat', 'Dog'], text_auto=True, titl
 fig.show()
 ```
 
-![box]()
+![box](./plots/box.png)
 
 ## Heatmap
 
@@ -141,7 +141,7 @@ fig = px.imshow(
 fig.show()
 ```
 
-![heatmap]()
+![heatmap](./plots/heatmap.png)
 
 ## Area chart 
 
@@ -158,7 +158,7 @@ fig = px.area(x=time_steps, y=memory_usage_gb, title='GPU Memory Usage Over Time
 # 3. Open the graph in your browser
 fig.show()
 ```
-![Area]()
+![Area](./plots/area.png)
 
 ## Bubble chart
 
@@ -179,7 +179,7 @@ fig = px.scatter(x=x_income, y=y_savings, size=bubble_sizes, title='Income vs Sa
 fig.show()
 ```
 
-![bubble]()
+![bubble](./plots/bubble.png)
 
 ## Treemap
 
@@ -198,7 +198,7 @@ fig = px.treemap(names=labels, parents=parents, values=values, title='AI Field H
 fig.show()
 ```
 
-![treemap]()
+![treemap](./plots/treemap.png)
 
 
 
