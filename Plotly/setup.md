@@ -27,12 +27,14 @@ put this in the terminal.
 first code.
 
 ```python
-import plotly.express as px
+import plotly.express as px 
 
 x = [1, 2, 3, 4, 5]
 y = [2, 3, 4, 5, 6]
 
 fig = px.line(x=x, y=y, title='Simple Line Chart')
-fig.show() 
+
+# it Open the graph in your browser
+fig.show()
 ```
-![example]()
+![example](Plotly/plots/example_plot.png)
