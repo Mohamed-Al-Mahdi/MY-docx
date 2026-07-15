@@ -1,6 +1,12 @@
 # the most used tools
 
+***I used this in google colab (you can use any notebook like Jupyter)***
+
+***I used some AI to do it***
+
 ***all this nubers are not real***
+
+
 
 ## Bar chart `px.bar`.
 
@@ -22,6 +28,7 @@ fig.show()
 
 ![bar_2](./plots/bar_2.png)
 
+---
 
 ## Line chart `px.line`
 
@@ -41,6 +48,8 @@ fig.show()
 
 ![line](./plots/line.png)
 
+---
+
 ## scatter plot `px.scatter`
 
 ```python
@@ -58,6 +67,8 @@ fig.show()
 ```
 
 ![scatter](./plots/scatter.png)
+
+---
 
 ## Pie Chart `px.pie`
 
@@ -77,7 +88,9 @@ fig.show()
 
 ![pie](./plots/pie.png)
 
-## Histogram
+---
+
+## Histogram `px.histogram`
 
 ```python
 import plotly.express as px 
@@ -94,19 +107,19 @@ fig.show()
 
 ![histogram](./plots/histogram.png)
 
-## Box Plot
+---
+
+## Box Plot `px.box`
 
 ```python
 import plotly.express as px 
 
-# 1. Define the data points (a 2D grid/matrix)
-matrix = [
-    [50, 2],  # Actual Cats (50 right, 2 predicted as dog)
-    [5, 45]   # Actual Dogs (5 predicted as cat, 45 right)
-]
+# 1. Define the data points
+groups = ['Dataset A', 'Dataset A', 'Dataset B', 'Dataset B', 'Dataset B']
+scores = [88, 92, 45, 50, 55] # Dataset B has much lower scores
 
-# 2. Create the heatmap
-fig = px.imshow(matrix, x=['Cat', 'Dog'], y=['Cat', 'Dog'], text_auto=True, title='AI Confusion Matrix')
+# 2. Create the box plot
+fig = px.box(x=groups, y=scores, title='Data Distribution & Outlier Detection')
 
 # 3. Open the graph in your browser
 fig.show()
@@ -114,7 +127,9 @@ fig.show()
 
 ![box](./plots/box.png)
 
-## Heatmap
+---
+
+## Heatmap `px.imshow`
 
 ```python
 import plotly.express as px 
@@ -143,7 +158,9 @@ fig.show()
 
 ![heatmap](./plots/heatmap.png)
 
-## Area chart 
+---
+
+## Area chart `px.area`
 
 ```python
 import plotly.express as px 
@@ -160,7 +177,9 @@ fig.show()
 ```
 ![Area](./plots/area.png)
 
-## Bubble chart
+---
+
+## Bubble chart `px.scatter`
 
 this one is the same as the scatter chart but with a new input
 
@@ -181,7 +200,11 @@ fig.show()
 
 ![bubble](./plots/bubble.png)
 
-## Treemap
+---
+
+## Treemap `px.treemap`
+
+i know it dosn't look like a tree that's what the functin called
 
 ```python
 import plotly.express as px 
