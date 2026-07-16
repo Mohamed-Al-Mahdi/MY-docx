@@ -1,8 +1,10 @@
 # the most used tools
 
-***I used this in google colab (you can use any notebook like Jupyter)***
+**I used this in google colab (you can use any notebook like Jupyter)**
 
-***I used some AI to do it***
+here is a [link](https://colab.research.google.com/drive/14LWYxnn5gsSD0gtKprjXQS-hJwJi0PA7?usp=sharing) for my notebok in colabc
+
+I used some AI to do it
 
 ***all this nubers are not real***
 
