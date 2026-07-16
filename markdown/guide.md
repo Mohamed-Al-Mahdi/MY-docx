@@ -121,3 +121,27 @@ hello_world("print")
 #### why to use it  
 
 it will makr the code and make it ez to find
+
+## add a link
+
+to add a link it has two parts first "[name]" and the link (http://something.com)
+
+so it should look like this `[name](http://something.com)`
+
+example
+
+[google](https://www.google.com)
+
+## add a photo
+
+it look the same as the link but add `!` befor the [] 
+
+so it should look like this `![photo name](the link or the path if you have it in your pc)
+
+
+
+
+
+
+
+
